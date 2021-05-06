@@ -1,10 +1,10 @@
 package algo.jiacheng.KthLargestInArray;
 
 /**
- * LeetCode 215
- * https://leetcode.com/problems/kth-largest-element-in-an-array/
+ * LeetCode 215 https://leetcode.com/problems/kth-largest-element-in-an-array/
  */
 public class Solution {
+
   public int findKthLargest(int[] nums, int k) {
     int lo = 0, hi = nums.length - 1;
     while (true) {
